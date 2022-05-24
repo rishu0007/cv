@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h3>My Contact Details:</h3>
+    <ol>
+        <li>Phone Number - 7488384144</li>
+        <li>Email - kumarrishu@gmail.com</li>
+        <li>Adderess - Kachahary Road BSf</li>
+    </ol>
+    <!-- very very important line, method= post means it will post the mail and enctype means encription type means the text will be plain -->
+    <form action="mailto:kumarrishu571iit@gmail.com" method="post" enctype="text/plain">   
+    <label for="">Name:</label>
+    <input type="text" name="yourname"> <br>
+    <label for="">Do You Want to Signup: </label>
+    <input type="checkbox" name=YesORNo"" id=""> <br>
+    <label for="">Enter Your Password:</label>
+    <input type="password" name="yourpass"> <br>
+    <label for="">Enter your message</label> <br>
+    <textarea name="yourMessage" id="" cols="30" rows="10"></textarea> <br>
+    <input type="submit">
+    </form>
+    <!-- or we can make form this way -->
+    <!-- <form action="mailto:kumarrishu571@gmail.com" method="post">
+        <div>
+            Name: <input type="text">  
+        </div>
+        <div>
+            Email: <input type="email" name="" id="">
+        </div>
+        <div>
+            Password: <input type="password" name="" id="">
+        </div>
+        <input type="submit">
+    </form> -->
+    
+</body>
+</html>
